@@ -1,4 +1,4 @@
-package dataStructures.binarySortTree;
+package dataStructures.tree;
 
 /**
  * 二叉排序树
