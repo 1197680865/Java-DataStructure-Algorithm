@@ -1,5 +1,7 @@
 package dataStructures.test;
 
+import java.util.HashMap;
+
 // LockTest4.java的源码
 class Something {
     public synchronized void isSyncA(){

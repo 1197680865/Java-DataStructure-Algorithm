@@ -55,7 +55,7 @@ public class HeapSort {
         int tmp = arr[i];
         // k= i*2+1 : 节点k为节点i的左子节点
         for (int k= i*2+1; k<length; k=k*2+1){
-            if (arr[k] < arr[k+1] && k+1<length){ //说明左子结点的值小于右子结点的值
+            if (arr[k] < arr[k+1] && k+1<length){ //说明左子结点的值小于右子结点的值,目的是将更大的值浮到当前的堆顶
                 k++; //将k指向右节点
             }
 
